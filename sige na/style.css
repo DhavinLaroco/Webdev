@@ -1,0 +1,43 @@
+:root { 
+    --clr-light: #000000; 
+
+  }
+  ::before,
+  :after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 48em 0 0 0;
+    padding: 0em;
+    line-height: 1.6;
+    word-spacing: 2.4px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid var(--clr-dark);
+  }
+  .item {
+    padding: 0.5em;
+    background-color: #ffffff;
+    font-weight: 700;
+    color: var(--clr-light);
+    border: 10px solid var(--clr-accent);
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: rgb(102, 102, 102);
+  }
+  
+  .flex-container > div {
+    background-color: #ffbf00;
+    margin: 25px;
+    padding: 25px;
+    font-size: 25px;
+  }
+  
+ 
